@@ -36,7 +36,7 @@ const handleDisplay = () => {
             required
         />
         </form>
-      <button onClick={handleDisplay}>Submit</button>
+      <button type='submit' onClick={handleDisplay}>Submit</button>
       {display && (
         <p>Full Name: {firstName} {surname}</p>
       )}
