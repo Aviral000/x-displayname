@@ -25,8 +25,8 @@ const handleDisplay = () => {
             onChange={(e) => setFirstName(e.target.value)}
             required
         />
-        </form>
-        <form>
+        {/* </form>
+        <form> */}
         <label htmlFor="surname">Last Name:</label>
         <input
             type="text"
