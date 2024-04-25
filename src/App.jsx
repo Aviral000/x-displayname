@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
 export default function App() {
-const [firstName, setFirstName] = useState('');
-const [surname, setSurname] = useState('');
+const [firstName, setFirstName] = useState("");
+const [surname, setSurname] = useState("");
 const [display, setDisplay] = useState(false);
 
 const handleDisplay = () => {
-    if (display == false && firstName != '' && surname != '') {
+    if (display == false && firstName != "" && surname != "") {
         setDisplay(true);
     } else {
         setDisplay(false);
